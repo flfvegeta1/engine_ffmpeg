@@ -19,7 +19,7 @@ fi
 
 cd $SRC/build/linux
 
-cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX="INSTALL" -DENABLE_SHARED=off -DENABLE_LIBNUMA=off ../../source
+cmake -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX="$INSTALL" -DENABLE_SHARED=off -DENABLE_LIBNUMA=off ../../source
 make -j $NumProc
 make install
 
