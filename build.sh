@@ -12,7 +12,8 @@ env_clean() {
 
 #fetch source code
 init_module() {
-    git clone -b dev git@github.com:flfvegeta1/live_ffmpeg.git
+    git clone git@github.com:flfvegeta1/live_ffmpeg.git
+    #git clone -b dev git@github.com:flfvegeta1/live_ffmpeg.git
     #cd live_ffmpeg && git checkout dev && cd  - #for test
 }
 
